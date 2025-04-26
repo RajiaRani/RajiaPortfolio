@@ -14,6 +14,8 @@ import cplus from "../../assets/Logo/Cplus.png"
 
 const Skills = () => {
   return (
+    <>
+    <img src="https://clarusway.com/wp-content/uploads/2023/04/full-stack-developer-technical-skills-1024x511.jpg"  className="skill-image" alt="" />
     <div className="main-container">
         <div className="skills-section">
       <h1>💼 Professional Skills</h1>
@@ -98,6 +100,7 @@ const Skills = () => {
       </div>
     </div>
     </div>
+    </>
   );
 };
 

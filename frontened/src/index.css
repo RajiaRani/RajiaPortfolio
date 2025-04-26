@@ -81,8 +81,6 @@ color: rgb(30, 108, 168);
 
 }
 
-
-
 .skills-img{
   display: flex;
 }
@@ -90,4 +88,8 @@ color: rgb(30, 108, 168);
   width: 25px;
   height: 25px;
   margin-left: 10px;
+}
+.skill-image{
+  width: 100vw;
+  height: 50vh;
 }
