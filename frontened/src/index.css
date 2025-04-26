@@ -86,7 +86,7 @@ color: rgb(30, 108, 168);
 .skills-img{
   display: flex;
 }
-.skills-img img{
+.skills-img img, .skills-category img{
   width: 25px;
   height: 25px;
   margin-left: 10px;

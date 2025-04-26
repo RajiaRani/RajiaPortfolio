@@ -4,6 +4,13 @@ import html from "../../assets/Logo/html.png"
 import css from "../../assets/Logo/css.png"
 import js from "../../assets/Logo/js.png"
 import react from "../../assets/Logo/react.png"
+import py from "../../assets/Logo/py.png"
+import java from "../../assets/Logo/java.png"
+import mongodb from "../../assets/Logo/mongodb.png"
+import mongoose from "../../assets/Logo/mongoose.png"
+import node from "../../assets/Logo/nodejs.png"
+import express from "../../assets/Logo/express.jpg"
+import cplus from "../../assets/Logo/Cplus.png"
 
 const Skills = () => {
   return (
@@ -52,7 +59,11 @@ const Skills = () => {
       {/* Languages */}
       <div className="skills-category">
         <h2>🖥️ Programming Languages</h2>
-        <p>C++, JavaScript, Java, Python</p>
+        <p>
+          <img src={cplus} alt="cplus" />C++, 
+          <img src={js} alt="js" />JavaScript, 
+          <img src={java} alt="java" />Java,
+          <img src={py} alt="python" /> Python</p>
       </div>
 
       {/* Libraries & Frameworks */}
