@@ -12,6 +12,7 @@ import node from "../../assets/Logo/nodejs.png"
 import express from "../../assets/Logo/express.jpg"
 import cplus from "../../assets/Logo/Cplus.png"
 
+
 const Skills = () => {
   return (
     <>
