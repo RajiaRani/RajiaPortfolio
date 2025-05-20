@@ -6,7 +6,7 @@ export default function navbar(){
     return(
         <>
         <header>
-            <div className="navbar-conatiner">
+            <div className="navbar-container">
                 <div className="name">
                     <Link to="/"><h2>Rajia Rani</h2></Link>
                 </div>
