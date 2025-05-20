@@ -1,6 +1,7 @@
 
 import './App.css'
 import Navbar from './Navbar/index.jsx'
+import About from './Portfolio/About/index.jsx'
 import Education from './Portfolio/Education/index.jsx'
 import Index from './Portfolio/Index/index.jsx'
 import Skills from './Portfolio/Skills/index.jsx'
@@ -13,6 +14,7 @@ function App() {
     <BrowserRouter>
     <Navbar/>
     <Routes>
+        <Route path="/about" element={<About />} />
         <Route path="/" element={<Index />} />
         <Route path="/skills" element={<Skills />} />
         <Route path="/education" element={<Education />} />
