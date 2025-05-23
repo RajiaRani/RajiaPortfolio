@@ -18,8 +18,6 @@ return(
                             <li><Link to="/contact">Contact</Link></li>
                         </ul>
                     </div>
-
-
                     <div className="footer-right-side">
                         <a href="https://www.linkedin.com/in/rajia-rani-935b71187/ "  target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
                         <a href="https://github.com/RajiaRani "  target="_blank" rel="noopener noreferrer"><FaGithub /></a>
