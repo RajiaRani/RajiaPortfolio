@@ -3,6 +3,7 @@ import './App.css'
 import Footer from './Footer/index.jsx'
 import Navbar from './Navbar/index.jsx'
 import About from './Portfolio/About/index.jsx'
+import Contact from './Portfolio/Contact/index.jsx'
 import Education from './Portfolio/Education/index.jsx'
 import Index from './Portfolio/Index/index.jsx'
 import Skills from './Portfolio/Skills/index.jsx'
@@ -19,6 +20,7 @@ function App() {
         <Route path="/" element={<Index />} />
         <Route path="/skills" element={<Skills />} />
         <Route path="/education" element={<Education />} />
+        <Route path="/contact" element={<Contact/>} />
       </Routes>
       <Footer/>
     </BrowserRouter>
