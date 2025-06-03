@@ -47,7 +47,7 @@ export default function Contact() {
                         <FaPhone />
                     </div>
                     <h4>Call Me </h4>
-                    <p>+1 60558-54711</p>
+                    <p>+1 6052029854</p>
                 </div>
 
                 <div className="contact-info-item">
@@ -55,7 +55,7 @@ export default function Contact() {
                         <FaMapMarkerAlt />
                     </div>
                     <h4>Address:</h4>
-                    <p>SD, USA</p>
+                    <p>Taxes, USA</p>
                 </div>
 
                 <div className="contact-info-item ">
@@ -63,7 +63,7 @@ export default function Contact() {
                         <FaEnvelope />
                     </div>
                     <h4>Email:</h4>
-                    <p>mekalathuru.chenchaiah@gmail.com</p>
+                    <p>rajiarani.syal@gmail.com</p>
                 </div>
 
                 <div className="contact-info-item ">
@@ -72,7 +72,7 @@ export default function Contact() {
                     </div>
                     <h4>Website:</h4>
                     <p>
-                        <a href=" https://iamchenchu.github.io/myPortfolio/" target="_blank" rel="noopener noreferrer">
+                        <a href=" " target="_blank" rel="noopener noreferrer">
                             Portfolio
                         </a>
                     </p>
