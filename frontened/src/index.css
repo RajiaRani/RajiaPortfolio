@@ -62,7 +62,10 @@ color: rgb(30, 108, 168);
 .main-container{
   width: 60%;
   margin: auto;
-  padding: 0pc 20px;
+  padding: 20px 20px;
+  background-color: #fcf9f9;
+  font-size: 16px;
+  color: #333;
 }
 
 .background-image{
