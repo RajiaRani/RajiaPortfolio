@@ -16,9 +16,8 @@ import cplus from "../../assets/Logo/Cplus.png"
 const Skills = () => {
   return (
     <>
-    <img src="https://clarusway.com/wp-content/uploads/2023/04/full-stack-developer-technical-skills-1024x511.jpg"  className="skill-image" alt="" />
     <div className="main-container">
-        <div className="skills-section">
+        <div className="skills-section" style={{"backgroundColor":"white"}}>
       <h1>💼 Professional Skills</h1>
 
       {/* Full Stack Development */}
@@ -29,10 +28,10 @@ const Skills = () => {
           Experienced in both frontend and backend development, including API integration and database management.
         </p>
       <div className="skills-img">
-      <img src={html} alt="html"/>HTML5,
-       <img src={css} alt="css"/>CSS3, 
-       <img src={js} alt="js"/>JavaScript,
-       <img src={react} alt="raect"/> React.js, Node.js, Express.js, RESTful APIs, EJS, MongoDB, Mongoose, SQL, PostgreSQL, Authentication: JWT, bcrypt
+      HTML5,
+      CSS3, 
+JavaScript,
+React.js, Node.js, Express.js, RESTful APIs, EJS, MongoDB, Mongoose, SQL, PostgreSQL, Authentication: JWT, bcrypt
       </div>
       </div>
 
