@@ -1,9 +1,11 @@
 body{
   margin: 0 !important;
   padding: 0;
-  color: #333;
  line-height: 1.8;
- font-weight: 400;
+ font-weight: 300;
+ color: rgb(94, 92, 92);
+ font-size: 1rem;
+ font-family: 'Times New Roman', Times, serif;
 }
 
 li{
@@ -17,10 +19,11 @@ a:hover{
   cursor: pointer;
 }
 h1{
-  font-size: 2rem;
+  font-size: 1.5rem;
+  color: rgb(4, 119, 150);
 }
 h2{
-  font-size: 1.7rem;
+  font-size: 1.3rem;
 }
 
 
@@ -63,8 +66,6 @@ color: rgb(30, 108, 168);
   width: 60%;
   margin: auto;
   padding: 20px 20px;
-  font-size: 16px;
-  color: #333;
 }
 
 .background-image{
@@ -116,3 +117,10 @@ ABOUT Start
 /*=====================================================================
 About End
  =====================================================================*/
+
+
+
+ .project-container{
+  width: 70%;
+  margin: auto;
+ }

@@ -13,6 +13,7 @@ export default function navbar(){
                 <ul className="nav-items">
                     <li className="nav-link"><Link to="/about">About</Link></li>
                     <li className="nav-link"><Link to="/skills">Skills</Link></li>
+                    <li className="nav-link"><Link to="/certificates">Certificates</Link></li>
                     <li className="nav-link"><Link to="/projects">Projects</Link></li>
                     <li className="nav-link"><Link to="/education">Education</Link></li>
                     <li className="nav-link"><Link to="/contact">Contact</Link></li>

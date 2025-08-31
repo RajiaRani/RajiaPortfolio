@@ -1,5 +1,6 @@
 import "../../index.css"
 import rajia from "../../assets/Image/rajia.jpeg"
+import Project from "../Project/Project.jsx"
 export default function About() {
     return (
         <>
@@ -44,6 +45,7 @@ export default function About() {
                     </p>
                 </div>
             </div>
+            <Project/>
         </>
     )
 }
