@@ -1,6 +1,6 @@
 import "../../index.css"
 import rajia from "../../assets/Image/rajia.jpeg"
-import Project from "../Project/Project.jsx"
+import Project from "../Project"
 export default function About() {
     return (
         <>
