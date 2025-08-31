@@ -209,14 +209,14 @@ const projects = [
 
 export default function Project() {
   return (
-    <Box sx={{ maxWidth: "55%", margin: "auto", p: 4, backgroundColor:"white" }}>
+    <Box sx={{ maxWidth: "50%", margin: "auto", p: 4 }}>
       <Typography variant="h4" gutterBottom>
         Projects
       </Typography>
       <Divider sx={{ mb: 3 }} />
 
       {projects.map((project, index) => (
-        <Box key={index} sx={{ display: "flex", mb: 4 }}>
+        <Box key={index} sx={{ display: "flex", mb: 4, backgroundColor:"white", borderRadius:"10px", padding:"10px"}}>
           {/* Left side logo */}
           <Box
             component="img"
@@ -273,7 +273,7 @@ export default function Project() {
             <Typography variant="caption" sx={{ color: "text.secondary" }}>
               {project.completed}
             </Typography>
-            <hr/>
+ 
           </Box>
         </Box>
       ))}
