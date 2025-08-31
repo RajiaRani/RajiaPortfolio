@@ -209,7 +209,7 @@ const projects = [
 
 export default function Project() {
   return (
-    <Box sx={{ maxWidth: "55%", margin: "auto", p: 4 }}>
+    <Box sx={{ maxWidth: "55%", margin: "auto", p: 4, backgroundColor:"white" }}>
       <Typography variant="h4" gutterBottom>
         Projects
       </Typography>
