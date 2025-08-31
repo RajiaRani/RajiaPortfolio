@@ -7,7 +7,7 @@ export default function About() {
     <div className="main-container">
       <div className="left-container">
         <img src={rajia} alt="rajia" />
-        <h2>Rajia Rani</h2>
+        <h2>RAJIA RANI</h2>
         <p> AI/ML Engineer / Full Stack Developer/ <br/> Ex. Assistent Professor </p>
         <a href=" https://www.linkedin.com/in/rajia-rani-935b71187/">Linkdlin</a> &nbsp; &nbsp;
         <a href="https://github.com/RajiaRani">Github</a> &nbsp; &nbsp;

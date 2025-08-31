@@ -1,106 +1,78 @@
-import React from 'react';
+import React from "react";
 import "../../index.css";
-import html from "../../assets/Logo/html.png"
-import css from "../../assets/Logo/css.png"
-import js from "../../assets/Logo/js.png"
-import react from "../../assets/Logo/react.png"
-import py from "../../assets/Logo/py.png"
-import java from "../../assets/Logo/java.png"
-import mongodb from "../../assets/Logo/mongodb.png"
-import mongoose from "../../assets/Logo/mongoose.png"
-import node from "../../assets/Logo/nodejs.png"
-import express from "../../assets/Logo/express.jpg"
-import cplus from "../../assets/Logo/Cplus.png"
-
+import fullstack from "../../assets/Skills/fullstack.jpg"; // same image used for all cards
 
 const Skills = () => {
   return (
-    <>
-    <div className="main-container">
-        <div className="skills-section" style={{"backgroundColor":"white"}}>
-      <h1>💼 Professional Skills</h1>
+    <div className="skills-container">
+      <h1 className="skills-title">💼 Professional Skills</h1>
 
-      {/* Full Stack Development */}
-      <div className="skills-category">
-        <h2>🌐 Full Stack Development</h2>
-        <p>
-          Proficient in building end-to-end web applications using the MERN stack (MongoDB, Express.js, React.js, Node.js).
-          Experienced in both frontend and backend development, including API integration and database management.
-        </p>
-      <div className="skills-img">
-      HTML5,
-      CSS3, 
-JavaScript,
-React.js, Node.js, Express.js, RESTful APIs, EJS, MongoDB, Mongoose, SQL, PostgreSQL, Authentication: JWT, bcrypt
-      </div>
-      </div>
+      <div className="skills-grid">
+        {/* Full Stack */}
+        <div className="skill-card">
+          <img src={fullstack} alt="Full Stack Development" className="skill-img" />
+          <h3>🌐 Full Stack Development</h3>
+          <p>
+            MERN Stack (MongoDB, Express.js, React.js, Node.js), REST APIs,
+            SQL, PostgreSQL, Authentication
+          </p>
+        </div>
 
-      {/* Tools & Technologies */}
-      <div className="skills-category">
-        <h2>🧰 Tools & Technologies</h2>
-        <ul>
-          <li>Git, GitHub (Version Control, Branching)</li>
-          <li>VS Code, Postman (Development and Testing)</li>
-          <li>npm, nodemon (Package Management, Auto-reloading)</li>
-          <li>Responsive Design, Media Queries (Mobile-First Approach)</li>
-          <li>Tailwind CSS, Bootstrap (CSS Frameworks)</li>
-        </ul>
-      </div>
+        {/* Tools */}
+        <div className="skill-card">
+          <img src={fullstack} alt="Tools" className="skill-img" />
+          <h3>🧰 Tools & Technologies</h3>
+          <p>
+            Git & GitHub, VS Code, Postman, npm, Bootstrap, Tailwind,
+            Responsive Design
+          </p>
+        </div>
 
-      {/* Core Concepts */}
-      <div className="skills-category">
-        <h2>🧠 Core Concepts</h2>
-        <p>Strong understanding of the following concepts:</p>
-        <ul>
-          <li>Data Structures & Algorithms</li>
-          <li>Object-Oriented Programming (OOP)</li>
-          <li>Calculus, Linear Algebra (Mathematical Foundation for Computer Science)</li>
-        </ul>
-      </div>
+        {/* Languages */}
+        <div className="skill-card">
+          <img src={fullstack} alt="Languages" className="skill-img" />
+          <h3>🖥️ Languages</h3>
+          <p>C++, JavaScript, Java, Python</p>
+        </div>
 
-      {/* Languages */}
-      <div className="skills-category">
-        <h2>🖥️ Programming Languages</h2>
-        <p>
-          <img src={cplus} alt="cplus" />C++, 
-          <img src={js} alt="js" />JavaScript, 
-          <img src={java} alt="java" />Java,
-          <img src={py} alt="python" /> Python</p>
-      </div>
+        {/* Core Concepts */}
+        <div className="skill-card">
+          <img src={fullstack} alt="Core Concepts" className="skill-img" />
+          <h3>🧠 Core Concepts</h3>
+          <p>Data Structures & Algorithms, OOP, Linear Algebra, Calculus</p>
+        </div>
 
-      {/* Libraries & Frameworks */}
-      <div className="skills-category">
-        <h2>📚 Libraries & Frameworks</h2>
-        <p>React.js, Express.js, Flask, Bootstrap, Tailwind CSS, REST APIs</p>
-      </div>
+        {/* Frameworks */}
+        <div className="skill-card">
+          <img src={fullstack} alt="Frameworks" className="skill-img" />
+          <h3>📚 Frameworks</h3>
+          <p>React.js, Express.js, Flask, Bootstrap, Tailwind CSS, REST APIs</p>
+        </div>
 
-      {/* Technologies & Tools */}
-      <div className="skills-category">
-        <h2>🧰 Technologies & Tools</h2>
-        <p>Git, GitHub, MERN Stack, MySQL, MongoDB</p>
-      </div>
+        {/* CSS */}
+        <div className="skill-card">
+          <img src={fullstack} alt="CSS Skills" className="skill-img" />
+          <h3>🎨 CSS Skills</h3>
+          <p>CSS3, Flexbox, Grid, Animations, Media Queries, Responsive Design</p>
+        </div>
 
-      {/* Core Science & Research */}
-      <div className="skills-category">
-        <h2>🧪 Core Science & Research</h2>
-        <ul>
-          <li>Physical, Organic, Inorganic Chemistry</li>
-          <li>Spectroscopy, Thermodynamics, Quantum Chemistry</li>
-          <li>Analytical Chemistry Research</li>
-        </ul>
-      </div>
+        {/* Research */}
+        <div className="skill-card">
+          <img src={fullstack} alt="Research" className="skill-img" />
+          <h3>🔬 Research</h3>
+          <p>Chemistry, Spectroscopy, Thermodynamics, Quantum Science</p>
+        </div>
 
-      {/* Computer Applications (Academic) */}
-      <div className="skills-category">
-        <h2>💻 Computer Applications (Academic)</h2>
-        <ul>
-          <li>MS Office, Scientific Calculations, Data Handling</li>
-          <li>Basics of Programming & Algorithms</li>
-        </ul>
+        {/* AI & ML */}
+        <div className="skill-card">
+          <img src={fullstack} alt="AI & ML" className="skill-img" />
+          <h3>🤖 AI & Machine Learning</h3>
+          <p>
+            Machine Learning, Neural Networks, Deep Learning, TensorFlow, PyTorch, Scikit-learn
+          </p>
+        </div>
       </div>
     </div>
-    </div>
-    </>
   );
 };
 
