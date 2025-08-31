@@ -61,14 +61,14 @@
 
 // function Media() {
 //   return (
-//     <Grid 
-//       container 
-//       spacing={3} 
+//     <Grid
+//       container
+//       spacing={3}
 //       justifyContent="center" // ✅ center cards
 //     >
 //       {projects.map((item, index) => (
-//         <Grid 
-//           item 
+//         <Grid
+//           item
 //           xs={12}                // ✅ full row on all screens
 //           sx={{ maxWidth: "65%" }} // ✅ limit width to 65% of page
 //           key={index}
@@ -146,8 +146,6 @@
 //   );
 // }
 
-
-
 // export default function Projects() {
 //   return (
 //     <div className="main-container">
@@ -166,12 +164,12 @@ import { Box, Typography, Chip, Link, Grid, Divider } from "@mui/material";
 import image from "../../assets/Image/abroadhub.png";
 import wonderlust from "../../assets/Image/wonderlust.png";
 
-
 const projects = [
   {
     logo: image,
     title: "AbroadHub – Immigration & Study Abroad Platform ",
-    subtitle: "Tech Stack: React, Node.js, Express, MongoDB, NPM, Hostinger Description: A full-stack web application that provides information and services for students and professionals applying to study or immigrate abroad. ",
+    subtitle:
+      "Tech Stack: React, Node.js, Express, MongoDB, NPM, Hostinger Description: A full-stack web application that provides information and services for students and professionals applying to study or immigrate abroad. ",
     techStack: ["React", "Node.js", "Express", "MongoDB", "Hostinger"],
     github: "https://github.com/RajiaRani/Final-AbroadHub",
     demo: "https://www.abroadhub.in",
@@ -180,16 +178,18 @@ const projects = [
   {
     logo: wonderlust,
     title: "Wonderlust",
-    subtitle: "Wonderlust - a dynamic platform for users to create, browse, and manage listings with map integration, user authentication, and responsive design.",
+    subtitle:
+      "Wonderlust - a dynamic platform for users to create, browse, and manage listings with map integration, user authentication, and responsive design.",
     techStack: ["React", "Node.js", "Express", "MongoDB", "Render"],
     github: "https://github.com/RajiaRani/MiniWonderLust-Project",
     demo: "https://miniwonderlust-project.onrender.com/listings",
     completed: "Completed June 2024",
   },
- {
+  {
     logo: image,
     title: "AbroadHub – Immigration & Study Abroad Platform ",
-    subtitle: "Tech Stack: React, Node.js, Express, MongoDB, NPM, Hostinger Description: A full-stack web application that provides information and services for students and professionals applying to study or immigrate abroad. ",
+    subtitle:
+      "Tech Stack: React, Node.js, Express, MongoDB, NPM, Hostinger Description: A full-stack web application that provides information and services for students and professionals applying to study or immigrate abroad. ",
     techStack: ["React", "Node.js", "Express", "MongoDB", "Hostinger"],
     github: "https://github.com/RajiaRani/Final-AbroadHub",
     demo: "https://www.abroadhub.in",
@@ -198,18 +198,18 @@ const projects = [
   {
     logo: wonderlust,
     title: "Wonderlust",
-    subtitle: "Wonderlust - a dynamic platform for users to create, browse, and manage listings with map integration, user authentication, and responsive design.",
+    subtitle:
+      "Wonderlust - a dynamic platform for users to create, browse, and manage listings with map integration, user authentication, and responsive design.",
     techStack: ["React", "Node.js", "Express", "MongoDB", "Render"],
     github: "https://github.com/RajiaRani/MiniWonderLust-Project",
     demo: "https://miniwonderlust-project.onrender.com/listings",
     completed: "Completed June 2024",
   },
- 
 ];
 
 export default function Project() {
   return (
-    <Box sx={{ maxWidth: "800px", margin: "auto", p: 4 }}>
+    <Box sx={{ maxWidth: "55%", margin: "auto", p: 4 }}>
       <Typography variant="h4" gutterBottom>
         Projects
       </Typography>
@@ -268,13 +268,12 @@ export default function Project() {
                   Live Demo
                 </Link>
               )}
-              
             </Box>
-
             {/* Completed / Deployed Date */}
             <Typography variant="caption" sx={{ color: "text.secondary" }}>
               {project.completed}
             </Typography>
+            <hr/>
           </Box>
         </Box>
       ))}

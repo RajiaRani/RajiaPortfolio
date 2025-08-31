@@ -6,6 +6,7 @@ body{
  color: rgb(94, 92, 92);
  font-size: 1rem;
  font-family: 'Times New Roman', Times, serif;
+ background-color: #f2f5fa;
 }
 
 li{
@@ -36,13 +37,16 @@ header{
   background-color: whitesmoke;
   padding: 0px !important;
 }
+
+
 .navbar-container{
   display: flex;
   align-items: center;
   justify-content: space-around;
   padding: 0px !important;
-  width: 80% !important;
+  width: 100% !important;
   margin: auto;
+  background-color: #fff;
 
 }
 .name h2{
@@ -66,6 +70,8 @@ color: rgb(30, 108, 168);
   width: 60%;
   margin: auto;
   padding: 20px 20px;
+  background-color: #fff;
+
 }
 
 .background-image{
