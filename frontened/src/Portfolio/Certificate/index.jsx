@@ -91,7 +91,7 @@ export default function Certificates() {
   const visibleCertificates = showAll ? certificates : certificates.slice(0, 6);
 
   return (
-    <div className="main-container">
+    <div className="certificates-container">
       <h2>🎓 My Online Course Certificates</h2>
       <hr />
       <br />

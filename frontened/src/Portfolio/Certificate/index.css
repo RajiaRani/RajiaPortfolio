@@ -1,9 +1,8 @@
-.certificates-container {
-   width: 70%;
-    margin: auto;
-    padding: 40px 0px;
-    padding-top: 100px;
 
+.certificates-container {
+   width:60%;
+    margin: auto;
+  background-color: #fff;
   }
   
   .certificates-title {
@@ -44,7 +43,7 @@
     height: auto;
     border-radius: 8px;
     object-fit: contain;
-    max-height: 250px; /* Adjust max height of the image */
+    max-height: 200px; /* Adjust max height of the image */
     margin-bottom: 15px;
   }
   

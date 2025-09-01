@@ -74,71 +74,280 @@ h2{
  
 
 }
-
-.skills-img{
-  display: flex;
-}
-.skills-img img, .skills-category img{
-  width: 25px;
-  height: 25px;
-  margin-left: 10px;
-}
-.skill-image{
-  width: 100vw;
-  height: 50vh;
-}
-
-
-
 .skills-container {
   padding: 40px;
-  max-width: 1000px;
+  max-width: 1100px;
   margin: auto;
+  text-align: center;
 }
 
-.skills-title {
-  text-align: center;
-  font-weight: bold;
-  margin-bottom: 40px;
+.about-tabs {
+  margin: 20px 0;
+}
+
+.tab-item {
+  background: #f5f5f5;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.tab-item.active {
+  background: #1976d2;
+  color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.tab-item:hover {
+  background: #e0e0e0;
 }
 
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   gap: 20px;
+  margin-top: 20px;
 }
 
-.skill-card {
+.skill-item {
   background: #fff;
   border-radius: 12px;
-  overflow: hidden;
-  text-align: center;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  padding: 15px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.skill-img {
-  width: 100%;
-  height: 160px;
-  object-fit: cover;
+.skill-item img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
 }
 
-.skill-card h3 {
-  margin: 15px 0 10px;
-  font-weight: bold;
+.skill-item p {
+  margin-top: 8px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #333;
 }
 
-.skill-card p {
-  color: #555;
-  font-size: 0.95rem;
-  padding: 0 15px 20px;
-}
-
-.skill-card:hover {
+.skill-item:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
 }
 
+
+
+
+
+/* =====================================================================
+      ABOUT SECTION
+ =========================================================================== */
+
+.skills-container{
+    width: 1250px;
+    margin: auto;
+}
+.about .about-heading {
+    width: 100%;
+}
+
+.about .about-img .img-box {
+    background-color: var(--white-alpha-25);
+    border: 1px solid var(--white-alpha-40);
+    width: 380px;
+    margin: auto;
+
+}
+
+.about .about-content {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.about .about-intro{
+    padding: 15px 31px 20px 0;    
+    text-align: start;
+}
+
+.about .about-heading h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: var(--text-black-900);
+}
+
+.about .about-heading h3 span {
+    color: var(--h3-color);
+}
+
+.about .about-text p {
+    font-size: 16px;
+    line-height: 25px;
+
+}
+
+.about-text h3 {
+    font-size: 20px;
+    text-transform: capitalize;
+    margin: 20px 0;
+}
+
+.about .skills-container h2 {
+    color: var(--skin-color);
+    font-size: 30px;
+}
+
+.about-text .skills {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 60%;
+    max-width: 60%;
+}
+
+.about .skills h3 {
+    font-size: 25px;
+}
+
+.about-text .skill-item {
+    background-color: var(--white-alpha-25);
+    border: 1px solid var(--white-alpha-40);
+    padding: 5px 15px;
+    text-transform: capitalize;
+    margin: 0 10px 10px 0;
+    border-radius: 20px;
+}
+
+.about-text {
+    width: 60%;
+    padding: 0 15px;
+}
+
+.about-nav {
+    margin-bottom: 23px;
+}
+
+.about-nav .nav-link {
+    width: 50%;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-nav .nav-link .nav-item {
+    padding: 5px 10px;
+    font-size: 18px;
+}
+
+.about-nav .nav-link .nav-item i {
+    color: var(--skin-color);
+    margin-right: 5px;
+    font-size: 18px;
+}
+
+
+/* about lib, tech, lang */
+
+.about-tabs .tab-item {
+    padding: 2px 0px;
+    background-color: transparent;
+    text-transform: capitalize;
+    border: none;
+    display: inline-block;
+    font-size: 20px;
+    color: var(--text-black-900);
+    cursor: pointer;
+    font-weight: 500;
+    margin-right: 30px;
+    position: relative;
+    opacity: 0.5;
+    transition: all 0.3s ease;
+}
+
+.about-tabs .tab-item:last-child {
+    margin: 0;
+}
+
+.about-tabs .tab-item::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 2px;
+    background-color: var(--skin-color);
+    transition: width 0.3s ease;
+}
+
+.about-tabs .tab-item:hover::before {
+    width: 100px;
+    cursor: pointer;
+}
+
+.about-tabs .tab-item.active {
+    color: var(--h3-color);
+    opacity: 1;
+    cursor: all;
+}
+
+.tab-content {
+    opacity: 0; /* Hidden by default */
+    transition: opacity 0.5s ease; /* Transition for opacity */
+    height: 0; /* Set initial height to 0 */
+    overflow: hidden; /* Hide overflow */
+}
+
+.tab-content.active {
+    opacity: 1; /* Show when active */
+    height: auto; /* Allow content to take its natural height */
+}
+
+.skills-container .about-tabs button {
+    margin: 0 30px 30px 0;
+    padding: 6px;
+    font-size: 23px;
+    color: var(--bg-black-100);
+}
+
+.skills-container .about-tabs button i {
+    font-size: 22px;
+}
+
+.tech-stack img{
+    width: 2rem;
+    height: 2rem;
+}
+.tech-stack {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: flex-start;
+    margin-top: 20px; 
+}
+
+.tech-stack .item {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding: 8px 12px; 
+    transition: transform 0.3s; 
+}
+
+.tech-stack .item:hover {
+    transform: scale(1.05); 
+}
+
+.tech-stack img {
+    width: 2rem; 
+    height: 2rem; 
+    margin-right: 8px; 
+}
+
+.tech-stack p {
+    font-size: 16px; 
+    color: var(--text-black-900); 
+}
 
 /*=====================================================================
 ABOUT Start
