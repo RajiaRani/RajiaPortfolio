@@ -1,8 +1,8 @@
 {
   "name": "frontened",
   "private": true,
-  "homepage": "https://RajiaRani.github.io/RajiaPortfolio",
-  "version": "0.0.0",
+    "version": "0.0.0",
+  "homepage": "https://rajiarani.github.io/RajiaPortfolio/",
   "type": "module",
   "scripts": {
     "dev": "vite",
